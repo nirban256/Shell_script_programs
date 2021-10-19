@@ -8,4 +8,4 @@ It is to help everyone get there desired solutions with proper syntax as Linux d
 
 #### Anybody interested to contribute are welcome.
 
-You can raise issues or create a pull request by cloning this repo and adding some new programmers to learn and help everyone.
+You can raise issues or create a pull request by cloning this repo and adding some new programs to learn and help everyone.
