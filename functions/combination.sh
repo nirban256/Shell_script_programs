@@ -13,7 +13,10 @@ fact()
 
 nCr()
 {
-    result = `fact $n`/`fact $r`*`fact ((n-r))`
+    a=`fact $n`
+    b=`fact $r`
+    c=`fact $n-$r`
+    result=`expr $a/$b * $c`
     echo `$result`
 }
 
