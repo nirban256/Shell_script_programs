@@ -6,9 +6,10 @@ series()
     sum=0
     for ((i=1; i<=r; i++))
     do
-        sum=(sum + i*i)
+        square=`expr $i \* $i`
+        sum=`expr $sum \+ $square`
     done
-    echo `$sum`
+    echo $sum
 }
 
 
@@ -16,5 +17,5 @@ clear
 echo -n "Enter the number of terms: "
 read n
 
-s=`series $n`
+s=$( series $n )
 echo "Sum is $s"
